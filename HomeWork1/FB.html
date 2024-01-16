@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            font-family: sans-serif;
+                box-sizing: border-box;
+        }
+        body{
+            background: whitesmoke;
+
+        }
+        form{
+            margin: 100px auto;
+            padding: 50px;
+            max-width: 450px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        input{
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #dfe2e2 ;
+        }
+        .btn{
+            width: 100%;
+            padding: 15px;
+            margin: 10px auto;
+            color: white;
+            background-color: blue;
+            opacity: 0.8;
+            border-radius: 8px;
+            border: 0px;
+            font-weight: bolder;
+            font-family: Arial;
+            cursor: pointer;
+        }
+        .link{
+            text-decoration: none;
+            color: rgba(8, 44, 123, 0.752);
+            text-align: center;
+            display: block;
+        }
+        .new{
+            padding: 15px;
+            margin: 10px auto;
+            color: rgb(244, 246, 244);
+            background-color:green;
+            opacity: 0.8;
+            border-radius: 8px;
+            border: 0px;
+            font-weight: bolder;
+            font-family: Arial; 
+            cursor: pointer;
+        }
+        hr{
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input  type="email" type="number" placeholder="Email or phone number" required>
+        <input type="password" placeholder="Password" required>
+        <button class="btn">Log in</button>
+        <a class="link"href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgot Password?</a>
+        <hr>
+        <button class="new">Create a new account</button>
+    </form>
+</body>
+</html>
